@@ -34,7 +34,7 @@ A package manager for CSS would let authors:
 - automatically fetch and manage dependencies (and dependencies of those dependencies…)
 - package the resulting style code in the most efficient formats for delivery (output can include CSS and/or JS, plus other assets like SVG, fonts, etc)
 
-> Imagine a scenario in which one person, let's name this person Cas, love making Layout API worklets for different tiled layouts. Imagine Cas has made hexagonal layouts, triangular layouts, pentagonal layouts, etc and publishes these Layout API worklets for others to use.
+> Imagine a scenario in which one person, let's name this person Cas, loves making Layout API worklets for different tiled layouts. Imagine Cas has made hexagonal layouts, triangular layouts, pentagonal layouts, etc and publishes these Layout API worklets for others to use.
 > 
 > Next imagine a game designer named Steve finds Cas's tiled layout worklets and thinks they'd be the perfect way to design and build game boards of various sizes and shapes for in-browser games. So Steve publishes a package that consume's Cas's tiled layout worklets and provides a 'game board builder' interface that has  a few easy configurations.
 >
@@ -49,7 +49,7 @@ A package manager for CSS would let authors:
 > ```
 > And once you ran that through a tool, it fetches both Steve's `game-board` package, which itself also requires Cas's triangular tile layout.
 >
-> To take things one step further, Even if Steve's `game-board` layout supports triangular, hexagonal, and pentagonal tiled layouts, since _only_ the triangular mode was used it only bundles that code, leaving the code for supporting hexagonal layouts or pentagonal layouts out of your final build.
+> To take things one step further, even if Steve's `game-board` layout supports triangular, hexagonal, and pentagonal tiled layouts, since _only_ the triangular mode was used it only bundles that code, leaving the code for supporting hexagonal layouts or pentagonal layouts out of your final build.
 
 ## What would it look like?
 
