@@ -1,0 +1,10 @@
+@--bootstrap {
+  theme-colors: {
+    primary: #07f;
+    danger: #c00;
+  }
+}
+
+.btn-primary {
+  text-shadow: rgba(0, 0, 0, .15) 1px 1px 1px;
+}
