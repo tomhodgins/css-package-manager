@@ -1,0 +1,15 @@
+button {}
+button strong {}
+button span {}
+button em {}
+
+@--test {
+  markup:
+    <button>
+      <strong></strong>
+      <span></span>
+    </button>
+  ;
+}
+
+/* we can safely drop the rule for `button em {}` since it doesn't appear in the test markup */
