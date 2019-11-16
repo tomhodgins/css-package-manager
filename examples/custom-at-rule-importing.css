@@ -1,0 +1,9 @@
+@--fancy-button-x {
+  matches: a;
+}
+@--fancy-button-y {
+  matches: button;
+}
+
+/* <a> on your site gets styles from fancy-button-x package */
+/* <button> on your site gets styles from fancy-button-y package */
