@@ -2,7 +2,7 @@
   name: my-website;
   version: 0.0.1;
   description: A demo package.css file;
-  main: index.css,
+  main: index.css;
   homepage: url(https://github.com/tomhodgins/css-package-manager);
   author: Tommy Hodgins;
   license: MIT;
