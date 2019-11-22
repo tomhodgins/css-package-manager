@@ -65,6 +65,7 @@ That's a great question - currently there are many different ideas of how this c
 
 That part I'm not sure about - I've never built a package manager before, but thankfully many already exist that can be learned from both in what to do and what not to do. Here are two that we can probably learn from as the flesh this one out:
 
+- [pika](https://pika.dev/)
 - [gnu guix](http://guix.gnu.org/)
 - [npm](https://www.npmjs.com/)
 
